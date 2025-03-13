@@ -11,11 +11,6 @@
         justify-content: space-around;
     }
     
-    .navbar .logo {
-     height: 0.3;
-     width: 0.3;
-    }
-    
     .navbar ul {
         list-style: none;
         display: flex;
