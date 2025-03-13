@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remover o estilo de listas e links */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remover bordas e espaçamentos indesejados de tabelas */
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    padding: 0;
+    border: none;
+  }
+  
+  /* Remover bordas em campos de formulário e inputs */
+  input,
+  textarea,
+  select,
+  button {
+    border: none;
+    outline: none;
+  }
+  
+  /* Ajustar fontes e outras propriedades para garantir consistência */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Remover o comportamento de "click" no botão de envio de formulário */
+  button {
+    background: none;
+    cursor: pointer;
+  }
