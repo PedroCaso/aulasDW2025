@@ -9,7 +9,7 @@ function clearDisplay() {
   function calculateResult() {
     const display = document.getElementById('display');
     try {
-      display.value = eval(display.value);
+      display.value = display(display.value);
     } catch (error) {
       display.value = 'Erro';
     }
